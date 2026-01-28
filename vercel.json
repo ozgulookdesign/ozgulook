@@ -1,5 +1,4 @@
 {
-"routes": [
-{ "src": "/(.*)", "dest": "/index.html" }
-]
+  "public": true,
+  "rootDirectory": "public"
 }
