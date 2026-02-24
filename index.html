@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Designer Store</title>
+    <title>Designer Portfolio & Store</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <section class="hero">
-        <img src="https://r.resimlink.com/61rAF-xX.png" alt="Designer Preview" class="full-width-img">
-    </section>
+    <header class="hero">
+        <img src="https://r.resimlink.com/61rAF-xX.png" alt="Designer Banner" class="hero-img">
+    </header>
 
-    <main id="product-list" class="container">
-        </main>
+    <main class="container">
+        <div id="product-grid" class="grid"></div>
+    </main>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
