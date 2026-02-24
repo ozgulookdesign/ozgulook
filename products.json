@@ -1,1 +1,17 @@
 
+[
+    {
+        "id": 1,
+        "name": "Minimalist Poster No.1",
+        "price": "250 TL",
+        "image": "assets/urun1.jpg",
+        "link": "https://odeme-linki-buraya.com"
+    },
+    {
+        "id": 2,
+        "name": "Design Print 02",
+        "price": "300 TL",
+        "image": "assets/urun2.jpg",
+        "link": "#"
+    }
+]
